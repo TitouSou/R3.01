@@ -35,5 +35,14 @@
 
 // Ex 5
 
-console.log(((4 >= 6) || ("herbe" != "verte")) && !(((12 * 2) == 144) && true));
+// console.log(((4 >= 6) || ("herbe" != "verte")) && !(((12 * 2) == 144) && true)); // true
+
+// Ex 6
+
+let poids = 70;
+let taille = 1.80;
+let IMC = poids / (taille*taille);
+console.log(IMC.toFixed(2));
+
+
 
