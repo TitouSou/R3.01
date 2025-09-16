@@ -39,10 +39,19 @@
 
 // Ex 6
 
-let poids = 70;
-let taille = 1.80;
-let IMC = poids / (taille*taille);
-console.log(IMC.toFixed(2));
+// let poids = 70;
+// let taille = 1.80;
+// let IMC = poids / (taille*taille);
+// console.log(IMC.toFixed(2));
 
+// Ex 7
 
+const montantMin = 60;
+let montantTot = 50;
+if (montantTot >= montantMin) {
+    console.log("Livraison gratuite !");
+    
+} else {
+    console.log("Frais de livraison : X euros");
+}
 
