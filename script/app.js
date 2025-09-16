@@ -13,6 +13,13 @@
 
 // Ex 2
 
-let length = 10;
-let width = 9;
-console.log(length * width);
+// let length = 10;
+// let width = 9;
+// console.log(length * width);
+
+// Ex 3
+
+let prenom = "Titou";
+let nom = "Sou";
+let conc = prenom+nom;
+console.log(conc);
