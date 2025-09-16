@@ -6,7 +6,13 @@
 
 // Ex 1 
 
-let temp = 10;
-let temp2 = temp * 9/5 + 32;
-console.log(temp);
-console.log(temp2);
+// let temp = 10;
+// let temp2 = temp * 9/5 + 32;
+// console.log(temp);
+// console.log(temp2);
+
+// Ex 2
+
+let length = 10;
+let width = 9;
+console.log(length * width);
