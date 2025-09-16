@@ -46,12 +46,18 @@
 
 // Ex 7
 
-const montantMin = 60;
-let montantTot = 50;
-if (montantTot >= montantMin) {
-    console.log("Livraison gratuite !");
+// const montantMin = 60;
+// let montantTot = 50;
+// if (montantTot >= montantMin) {
+//     console.log("Livraison gratuite !");
     
-} else {
-    console.log("Frais de livraison : X euros");
-}
+// } else {
+//     console.log("Frais de livraison : X euros");
+// }
 
+// Ex 8
+
+let nbBin = "000000001";
+let nb = parseInt(nbBin);
+console.log(nbBin);
+console.log(nb);
