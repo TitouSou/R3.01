@@ -2,25 +2,35 @@
 <html lang="fr">
 <head>
     <title>Shifumi</title>
+    <link rel="stylesheet" href="style/style.css" />
 </head>
 <body>
     <h1>Shifumi</h1>
+    <div id="boutons">
+        <button id="pierre">Pierre</button>
+        <button id="feuille">Feuille</button>
+        <button id="ciseaux">Ciseau</button>
+    </div>
+    
+    <div class="ligne-info">
+        <p>Choix du bot : </p>
+        <span id="choix"></span>
+    </div>
 
-    <button id="pierre">Pierre</button>
-    <button id="feuille">Feuille</button>
-    <button id="ciseaux">Ciseau</button>
+    <div class="ligne-info">
+        <p>Nombre de victoires : </p>
+        <span id = "nbVictoires"></span>
+    </div>
 
-    <p>Choix du bot : </p>
-    <span id="choix"></span>
+    <div class="ligne-info">
+        <p>Nombre de nulles : </p>
+        <span id = "nbNulles"></span>
+    </div>
 
-    <p>Nombre de victoires : </p>
-    <span id = "nbVictoires"></span>
-
-    <p>Nombre de nulles : </p>
-    <span id = "nbNulles"></span>
-
-    <p>Nombre de défaites : </p>
-    <span id = "nbDefaites"></span>
+    <div class="ligne-info">
+        <p>Nombre de défaites : </p>
+        <span id = "nbDefaites"></span>
+    </div>
 
     <button id="reset">Rénitialiser le score</button>
     
