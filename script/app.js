@@ -57,7 +57,8 @@
 
 // Ex 8
 
-let nbBin = "000000001";
-let nb = parseInt(nbBin);
-console.log(nbBin);
-console.log(nb);
+// let nbBin = "000000001";
+// let nb = parseInt(nbBin);
+// console.log(nbBin);
+// console.log(nb);
+
