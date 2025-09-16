@@ -19,7 +19,16 @@
 
 // Ex 3
 
-let prenom = "Titou";
-let nom = "Sou";
-let conc = prenom+nom;
-console.log(conc);
+// let prenom = "Titou";
+// let nom = "Sou";
+// let conc = prenom+nom;
+// console.log(conc);
+
+// Ex 4
+
+let montantHT = 50;
+let tauxTVA = 0.2;
+let montantTTC = montantHT * (1+tauxTVA);
+console.log(montantHT);
+console.log(tauxTVA);
+console.log(montantTTC);
