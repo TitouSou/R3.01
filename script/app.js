@@ -26,9 +26,14 @@
 
 // Ex 4
 
-let montantHT = 50;
-let tauxTVA = 0.2;
-let montantTTC = montantHT * (1+tauxTVA);
-console.log(montantHT);
-console.log(tauxTVA);
-console.log(montantTTC);
+// let montantHT = 50;
+// let tauxTVA = 0.2;
+// let montantTTC = montantHT * (1+tauxTVA);
+// console.log(montantHT);
+// console.log(tauxTVA);
+// console.log(montantTTC);
+
+// Ex 5
+
+console.log(((4 >= 6) || ("herbe" != "verte")) && !(((12 * 2) == 144) && true));
+
